@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: whitesmoke;
+}
+body {
+  text-align: center;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 20em;
+  margin: 0 auto;
+}
+.btn {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 10%;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.flash {
+  background-color: white;
+}
+.userflash {
+  background-color: cyan;
+}
+.gameover {
+  background-color: red;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
